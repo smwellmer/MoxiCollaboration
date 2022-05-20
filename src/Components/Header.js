@@ -1,5 +1,9 @@
 function Header() {
-    return <header>Header</header>
+    return <header>
+       <img src="/MoxiLogo.png"></img>
+        
+        
+        </header>
 }
 
 export default Header
