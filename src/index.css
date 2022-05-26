@@ -1,1 +1,25 @@
-/* Moxi Orange rgb(209, 122, 83) */
+/* Moxi Orange #d17a53 */
+ .main {
+     width: min(90%, 1000px);
+     margin-inline: auto;
+     border: 3px solid black;
+ }
+
+ .logo {
+    width: min(70%, 750px);
+ }
+ .header {
+     display:flex;
+     flex-direction: row;
+     align-items: center;
+     padding: max(3vh, 1rem) 1.5rem;
+     margin-bottom: max(5vh, 2rem);
+ }
+
+ .links {
+    font-size: 1.5em;
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+ }
