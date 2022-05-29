@@ -1,9 +1,23 @@
 /* Moxi Orange #d17a53 */
- .main {
+html { 
+    background: url(../public/output-onlinepngtools.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } 
+
+.main {
+    display: flex;
+    /* flex-direction: column; */
      width: min(90%, 1000px);
      margin-inline: auto;
-     border: 3px solid black;
+    /*border: 3px solid black;*/
  }
+ .mission {
+    justify-content: center;
+}
+
 
  .logo {
     width: min(70%, 750px);
@@ -19,7 +33,22 @@
  .links {
     font-size: 1.5em;
     width: 100%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
  }
+
+
+
+
+
+
+ .aboutDiv {
+    width: min(90%, 1000px);
+    margin-inline: auto;
+ }
+
+ .buniImage {
+    display: block;
+    margin-inline: auto;
+}
