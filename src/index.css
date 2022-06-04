@@ -7,8 +7,41 @@ html {
     background-size: cover;
   } 
 
-.main {
+/* --------------------------Header-------------------------- */
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: min(85%, 750px);
+ }
+ .header {
+     width: 100% vw;
+     padding: max(3vh, 1rem);
+ }
+ .links {
+    font-size: 1.6em;
     display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #8EA487, rgba(255,0,0,0));
+ }
+ .link{
+     text-decoration: none;
+     box-shadow: inset 0 0 0 0 black;
+     color: black;
+     margin: 0 -.25rem;
+     padding: 0 .25rem;
+     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+     border-radius: 15px;
+    }
+ .link:hover{
+    box-shadow: inset 100px 0 0 0 #d17a53;
+
+ }
+
+/* --------------------------Main Page-------------------------- */
+.main {
+    /* display: flex; */
     /* flex-direction: column; */
      width: min(90%, 1000px);
      margin-inline: auto;
@@ -18,31 +51,7 @@ html {
     justify-content: center;
 }
 
-
- .logo {
-    width: min(70%, 750px);
- }
- .header {
-     display:flex;
-     flex-direction: row;
-     align-items: center;
-     padding: max(3vh, 1rem) 1.5rem;
-     margin-bottom: max(5vh, 2rem);
- }
-
- .links {
-    font-size: 1.5em;
-    width: 100%;
-    /* border: 3px solid black; */
-    display: flex;
-    justify-content: space-between;
- }
-
-
-
-
-
-
+/* About Page */
  .aboutDiv {
     width: min(90%, 1000px);
     margin-inline: auto;
@@ -51,4 +60,14 @@ html {
  .buniImage {
     display: block;
     margin-inline: auto;
+}
+
+/* --------------------------Footer-------------------------- */
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer a {
+    color: black;
+    font-size: 1.5em;
 }
