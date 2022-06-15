@@ -1,13 +1,16 @@
 function Button(props) {
 
     return <button
+        className={props.className}
         style={{
             backgroundColor: props.color,
             padding: "10px",
             fontSize: "1.5em",
-            color: "White",
+            color: "black",
             borderRadius: "30px"
+    
         }}
+        
     >
         
         {props.text}

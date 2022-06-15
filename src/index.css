@@ -48,10 +48,17 @@ html {
     /*border: 3px solid black;*/
  }
  .mission {
-    justify-content: center;
+    /* justify-content: center; */
+}
+.mainDonateButton {
+    text-align: center;
+    transition: .3s;
+}
+.mainDonateButton:hover{
+    background-color: #d17a53;
 }
 
-/* About Page */
+/* --------------------------About Page-------------------------- */
  .aboutDiv {
     width: min(90%, 1000px);
     margin-inline: auto;

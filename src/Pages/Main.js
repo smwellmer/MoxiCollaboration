@@ -27,7 +27,7 @@ function Main() {
          indescribable gift.” - Catharina Collmann, Founder
         </p>
 
-                <Button text='Donate Now' color='black'/>
+        <Button className='mainDonateButton' text= "Donate Now" color = "#8ea487" />
 
 
     </div>
