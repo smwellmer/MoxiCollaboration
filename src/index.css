@@ -62,11 +62,15 @@ html {
  .aboutDiv {
     width: min(90%, 1000px);
     margin-inline: auto;
+    font-family: 'Raleway', sans-serif;
  }
 
  .buniImage {
     display: block;
     margin-inline: auto;
+}
+.buniSig {
+    font-family: 'Kristi', cursive;
 }
 
 /* --------------------------Footer-------------------------- */

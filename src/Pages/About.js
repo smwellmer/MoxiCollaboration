@@ -17,7 +17,9 @@ function About() {
         or slipping on a pair of cozy sweatpants, totally encapsulating your body with warmth and regard for your safety and well-being - I think one will find some solace in our care 
         packages and my hope is that you know you are loved and you are enough. No matter what.”
         </p>
+        <h3 className="buniSig">Catharmina Collmann</h3>
 
+        <a href='bunistory.pdf'/>
 
     </div>
 }
