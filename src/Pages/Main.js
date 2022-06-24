@@ -12,8 +12,6 @@ function Main() {
 
         <img src="MoxieDefinition-removebg-preview.png"className="moxieDefinition"/>
 
-       
-       
         <p className="statement">
          “From my own personal experience, the most valued thing you need in that moment is comfort. 
          The ability to not only cleanse your body with products that give you a nostalgic sense of safety, 

@@ -1,3 +1,5 @@
+import Button from "../Components/Button"
+
 function About() {
     return <div className='aboutDiv'>
         <p>
@@ -17,9 +19,9 @@ function About() {
         or slipping on a pair of cozy sweatpants, totally encapsulating your body with warmth and regard for your safety and well-being - I think one will find some solace in our care 
         packages and my hope is that you know you are loved and you are enough. No matter what.”
         </p>
-        <h3 className="buniSig">Catharmina "Buni" Collmann</h3>
+        <h3 className="buniSig">Catharina "Buni" Collmann</h3>
 
-        <button><a href='bunistory.pdf'/> Read Buni's Story Here</button>
+        <Button className='buniStoryButton' text= "Read Buni's Full Story Here" color = "#8ea487"><a href='bunistory.pdf'/></Button>
 
     </div>
 }

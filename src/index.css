@@ -69,6 +69,8 @@ html {
     text-align: center;
     transition: .3s;
     margin: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
 }
 .mainDonateButton:hover{
     background-color: #d17a53;
@@ -80,6 +82,7 @@ html {
 }
 /* --------------------------About Page-------------------------- */
  .aboutDiv {
+    
     width: min(90%, 1000px);
     margin-inline: auto;
     font-family: 'Raleway', sans-serif;
@@ -97,6 +100,30 @@ html {
     text-align: end;
     margin-top: 0;
 }
+
+.buniStoryButton{
+    margin: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    margin-top: .5em;
+}
+
+/* --------------------------Contact-------------------------- */
+.contact {
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.contactIcons{
+    display: flex;
+    justify-content: space-around;
+}
+ .contactIcons a {
+    font-size: 1.5em;
+    color: black;
+} 
 
 /* --------------------------Footer-------------------------- */
 .footer {
