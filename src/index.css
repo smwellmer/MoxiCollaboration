@@ -49,10 +49,31 @@ html {
    
  }
  .title{
-    font-size: 3em;
+     display: flex;
+    font-size: 1.8em;
     font-family: 'La Belle Aurore', cursive;
     margin-bottom: .5em;
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #d17a53; /* The typewriter cursor; */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+        typing 3.5s steps(50, end),
+        blink-caret 1s step-end infinite;
  }
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+    }
+
  .mission {
     font-size: 1.2em;
     font-family: 'Raleway', sans-serif;
@@ -82,7 +103,6 @@ html {
 }
 /* --------------------------About Page-------------------------- */
  .aboutDiv {
-    
     width: min(90%, 1000px);
     margin-inline: auto;
     font-family: 'Raleway', sans-serif;
@@ -110,6 +130,7 @@ html {
 
 /* --------------------------Contact-------------------------- */
 .contact {
+
     font-size: 1.2em;
     font-family: 'Raleway', sans-serif;
     position: relative;
@@ -119,12 +140,15 @@ html {
 .contactIcons{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
 }
  .contactIcons a {
     font-size: 1.5em;
     color: black;
 } 
-
+.email{
+    color: black;
+}
 /* --------------------------Footer-------------------------- */
 .footer {
     display: flex;
