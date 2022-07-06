@@ -10,7 +10,11 @@ function Main() {
         Our mission: "To provide comfort, dignity, and empowerment for survivors of sexual assault."
         </div>
 
+        <div className="definitions">
         <img src="MoxieDefinition-removebg-preview.png"className="moxieDefinition"/>
+        <img src="transparent.unconditionallove.png"className="unconditionalLove"/>
+        </div>
+        
 
         <p className="statement">
          “From my own personal experience, the most valued thing you need in that moment is comfort. 
@@ -19,7 +23,7 @@ function Main() {
          indescribable gift.” - Catharina Collmann, Founder
         </p>
 
-        <Button className='mainDonateButton' text= "Donate Now" color = "#8ea487" />
+        <Link to="/donate"><Button className='mainDonateButton' text= "Donate Now" color = "#8ea487"/></Link>
 
 
     </div>

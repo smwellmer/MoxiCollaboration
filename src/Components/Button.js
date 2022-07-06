@@ -10,6 +10,7 @@ function Button(props) {
         }}
         
     >
+        {props.fontSize}
         {props.text}
         </button>
         
