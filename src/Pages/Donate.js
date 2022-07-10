@@ -10,7 +10,7 @@ function Donate() {
 
         <Button className='donateButton' text= "GoFundMe" color = "#8ea487" />
 
-         {/* center button */}
+         
 
     </div>
 }

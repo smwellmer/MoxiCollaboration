@@ -23,7 +23,7 @@ function Main() {
          indescribable gift.” - Catharina Collmann, Founder
         </p>
 
-        <Link to="/donate"><Button className='mainDonateButton' text= "Donate Now" color = "#8ea487"/></Link>
+        <Link className='mainDonateButton' to="/donate"><Button className='mainDonateButton' text= "Donate Now" color = "#8ea487"/></Link>
 
 
     </div>

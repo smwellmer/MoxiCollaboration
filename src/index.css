@@ -44,8 +44,9 @@ html {
 .main {
     display: flex;
     flex-direction: column;
-    width: min(90%, 1000px);
-    margin-inline: auto;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
  }
  .title{
     font-size: 1.8em;
@@ -60,23 +61,25 @@ html {
 }
 .definitions{
     display: flex;
+    flex-direction: column;
 }
 .moxieDefinition{
-    margin: auto;
-    width: 88vw;
+    width: 90%;
     border: solid #8EA487;
+    margin: auto;
+    margin-bottom: 1em;
 }
 .unconditionalLove{
-    margin: auto;
-    width: 88vw;
+    width: 90%;
     border: solid #8EA487;
+    margin: auto;
 }
 .mainDonateButton {
     text-align: center;
     transition: .3s;
-    margin: 2em;
+    margin: .5em;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .mainDonateButton:hover{
     background-color: #d17a53;
@@ -109,13 +112,6 @@ html {
     margin-bottom: 0;
     padding: 0;
 }
-
-.buniStoryButton{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1em;
-    margin: 1em;
-    margin-top: 1em;
-}
 h4{
     text-align: end;
     margin: 0;
@@ -131,27 +127,55 @@ h4{
     margin-bottom: 1.5em;
 }
 .contactIcons{
+    /* margin: 0; */
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: center;
 }
  .contactIcons a {
     font-size: 1.5em;
     color: black;
-    text-decoration: none;
+    margin-bottom: 1em;
 } 
+.socialIcon{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+}
 .email{
     color: black;
-    font-size: 1.2em;
+    font-size: 1.1em;
+}
+.fb{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    font-size: .8em;
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    font-size: .8em;
+}
+.tw{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    font-size: .8em;
 }
 /* --------------------------Donate-------------------------- */
 .donate{
     display: flex;
     flex-direction: column;
-    margin-inline: auto;
-    margin: .8em;
+    margin: 1em;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    text-indent: 1em;
+    justify-content: center;
 }
 .donateButton{
     text-align: center;
@@ -169,25 +193,33 @@ h4{
     color: black;
     font-size: 1.5em;
 }
+
 @media screen and (min-width: 768px){
 /* --------------------------Main Page-------------------------- */
+    .main{
+        margin: auto;
+        width: 85%;
+    }    
     .title{
         font-size: 3em;
         font-family: 'La Belle Aurore', cursive;
      }
+     .definitions{
+         flex-direction: row;
+     }
     .moxieDefinition{
         margin: auto;
-        width: 40vw;
+        width: 45%;
         border: solid #8EA487;
     }
     .unconditionalLove{
         margin: auto;
-        width: 40vw;
+        width: 45%;
         border: solid #8EA487;
     }
     .mainDonateButton {
         margin: 0 auto;
-        justify-content: center;
+        margin-bottom: 1em;
     }
     .mainDonateButton:hover{
         background-color: #d17a53;
@@ -227,6 +259,53 @@ h4{
     margin-inline: auto;
 }
 .donateButton{
+    margin: 0 auto;
     width: 50%;
 }
+/* --------------------------Contact-------------------------- */
+.contactIcons{
+    flex-direction: row;
+}
+.fb{
+    /* border: red 1px solid; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    font-size: .8em;
+}
+.insta{
+    /* border: black 1px solid; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    font-size: .8em;
+}
+.tw{
+    /* border: red 1px solid; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    font-size: .8em;
+}
+}
+@media screen and (min-width: 1024px){
+/* -----------------Header---------------- */
+.logo{
+    width: 50%;
+}
+
+/* -----------------Main---------------- */
+.main{
+    margin: auto;
+    width: 80%;
+}  
+
+/* -----------------Donate---------------- */
+.donate{
+    width: 75%;
+}
+
 }

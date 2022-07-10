@@ -1,4 +1,5 @@
 import Button from "../Components/Button"
+import Download from "../Components/Download"
 
 function About() {
     return <div className='aboutDiv'>
@@ -21,7 +22,8 @@ function About() {
         <h3 className="buniSig">Catharina "Buni" Collmann</h3>
         <h4>Founder</h4>
 
-        <Button className='buniStoryButton' text= "Read Buni's Full Story Here" color = "#8ea487"></Button>
+
+        <Download/>
 
           {/* center button */}
 
