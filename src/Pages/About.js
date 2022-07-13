@@ -9,7 +9,7 @@ function About() {
         that with the right support, one can heal from such abuse and can not only survive, but thrive - with courage, strength, and of course, Moxi.
         </p>
 
-       <img src='buni.JPG' className="buniImage"></img>
+       <img src='https://i.imgur.com/cXsRKly.jpg' className="buniImage"></img>
 
         <p>
         “I wanted to give a level of unconditional support and positive affirmation to those directly affected by sexual abuse or violence associated with sexual assault.

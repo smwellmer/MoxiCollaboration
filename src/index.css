@@ -103,6 +103,8 @@ html {
      width: 88vw;
     display: block;
     margin-inline: auto;
+    border-radius: 15px;
+    border: 3px solid black;
 }
 .buniSig {
     font-size: 1.8em;
@@ -306,6 +308,10 @@ h4{
 /* -----------------Donate---------------- */
 .donate{
     width: 75%;
+}
+/* -----------------About---------------- */
+.buniImage{
+    max-width: 40%;
 }
 
 }
