@@ -17,10 +17,10 @@ function Main() {
         
 
         <p className="statement">
-        “From my own personal experience, the most valued and needed thing in that moment is comfort. 
-        The ability to not only cleanse yourself with products that provide a nostalgic sense of familiarity and safety, 
-        but to put on clothes that provide an added layer of support and security - it’s truly unmatched and an indescribable gift.” 
-        - Catharina Collmann, Founder
+        From my own personal experience, the most valued and needed thing in that moment is comfort. 
+        We hope our kits will provide those affected with a sense of familiarity and cleanliness, blanketed 
+        with safety and security, and thus allowing for some grace and healing to take place. Comfort, however it may take shape, 
+        is an indescribable gift.” - Catharina Collmann, Founder
         </p>
 
         <Link className='mainDonateButton' to="/donate"><Button className='mainDonateButton' text= "Donate Now" color = "#8ea487"/></Link>
