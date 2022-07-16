@@ -81,9 +81,9 @@ html {
     font-family: 'Raleway', sans-serif;
     font-size: 1.3em;
 }
-.mainDonateButton:hover{
+/* .mainDonateButton:hover{
     background-color: #d17a53;
-}
+} */
 .statement{
     font-family: 'Raleway', sans-serif;
     text-indent: 5vw;
@@ -228,9 +228,7 @@ h4{
         margin: 0 auto;
         margin-bottom: 1em;
     }
-    .mainDonateButton:hover{
-        background-color: #d17a53;
-    }
+  
 /* --------------------------Header-------------------------- */
     .logo {
      margin: 0 auto;
