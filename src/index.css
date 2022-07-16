@@ -178,12 +178,17 @@ h4{
     font-size: 1.1em;
     text-indent: 1em;
     justify-content: center;
+    margin-bottom: 5em;
+}
+.donate p {
+    margin-bottom: 2em;
 }
 .donateButton{
     text-align: center;
     transition: .3s;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
+    margin: 2em;
 }
 
 /* --------------------------Footer-------------------------- */
