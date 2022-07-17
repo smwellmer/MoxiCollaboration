@@ -17,7 +17,7 @@ function Main() {
         
 
         <p className="statement">
-        From my own personal experience, the most valued and needed thing in that moment is comfort. 
+        "From my own personal experience, the most valued and needed thing in that moment is comfort. 
         We hope our kits will provide those affected with a sense of familiarity and cleanliness, blanketed 
         with safety and security, and thus allowing for some grace and healing to take place. Comfort, however it may take shape, 
         is an indescribable gift.” - Catharina Collmann, Founder
