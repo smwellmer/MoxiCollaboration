@@ -6,7 +6,7 @@ function About() {
         <p>
         We are a 501(c)(3) accredited organization with a mission to supporting those affected by sexual assault. 
         Whether it be through donating tangible goods to local shelters, attending community rallies to increase awareness, 
-        or emotionally empowering fellow survivors through their recovery journey, we’re here for it
+        or emotionally empowering fellow survivors through their recovery journey, we’re here for it!
         </p>
 
        <img src='https://i.imgur.com/cXsRKly.jpg' className="buniImage"></img>
