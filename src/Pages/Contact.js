@@ -25,6 +25,10 @@ function Contact() {
         <p>To contact us directly, email us at:</p>
         <a href="mailto:moxicollaboration@gmail.com" className="email">moxicollaboration@gmail.com</a>
 
+
+
+
+
     </div>
 }
 

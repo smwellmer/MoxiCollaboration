@@ -18,7 +18,7 @@ function Main() {
 
         <p className="statement">
         "Comfort, however it may take shape, 
-        is an indescribable gift.” - Catharina Collmann, Founder
+        is an indescribable gift.” - Catharina Eisdorfer, Founder
         </p>
 
         <Link className='mainDonateButton' to="/donate"><Button className='mainDonateButton' text= "Donate Now" color = "#8ea487"/></Link>

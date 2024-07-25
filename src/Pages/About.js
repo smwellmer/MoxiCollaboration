@@ -4,9 +4,9 @@ import Download from "../Components/Download"
 function About() {
     return <div className='aboutDiv'>
         <p>
-        We are a non-profit organization that is dedicated to helping individuals that have recently been affected by sexual assault. We assemble kits including essential toiletries and comfortable 
-        loungewear to help those affected feel safe, secure, and clean. Our focus is to mitigate the physical, emotional, and psychological burden of this type of abuse. We firmly believe 
-        that with the right support, one can heal from such abuse and can not only survive, but thrive - with courage, strength, and of course, Moxi.
+        We are a 501(c)(3) accredited organization with a mission to supporting those affected by sexual assault. 
+        Whether it be through donating tangible goods to local shelters, attending community rallies to increase awareness, 
+        or emotionally empowering fellow survivors through their recovery journey, we’re here for it
         </p>
 
        <img src='https://i.imgur.com/cXsRKly.jpg' className="buniImage"></img>
@@ -19,7 +19,7 @@ function About() {
         And that sense of security will look different for different individuals. I think one will find some solace in our care 
         packages and my hope is that you know you are loved and you are enough. No matter what.”
         </p>
-        <h3 className="buniSig">Catharina "Buni" Collmann</h3>
+        <h3 className="buniSig">Catharina "Buni" Eisdorfer</h3>
         <h4>Founder</h4>
 
 

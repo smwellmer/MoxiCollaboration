@@ -5,7 +5,7 @@ import React from "react";
 function Donate() {
 
     return <div className="donate">
-        <p>Donating to Moxi Collaboration will allow our organization to assemble comfort kits for survivors of sexual assault.</p>
+        <p>Donating to Moxi Collaboration will allow our organization to support survivors of sexual assault.</p>
 
         <p>As of July 12, 2022 Moxi Collaboration is an official 501(c)(3) non-profit organization. </p>
 
